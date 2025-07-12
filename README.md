@@ -1,28 +1,60 @@
-# Employee Directory Web Interface
+# 👥 Employee Directory - Design Assignment
 
-A responsive and interactive employee directory application built using **HTML**, **CSS**, **Vanilla JavaScript**, and Freemarker templating simulation.
-
-## 🔧 Features Implemented
-
-- ✅ Dashboard with employee list (ID, Name, Email, Department, Role)
-- ✅ Add/Edit/Delete functionality
-- ✅ Client-side form validation
-- ✅ Filter by First Name, Department, Role
-- ✅ Sort by First Name and Department
-- ✅ Search by Name and Email
-- ✅ Pagination with options (10, 25, 50, 100 per page)
-- ✅ Responsive design for mobile, tablet, desktop
-- ✅ Mock data loaded via JavaScript (simulating Freemarker `<#assign>`)
+An elegant and responsive Employee Directory built with React and Tailwind CSS. This project is part of a front-end development assignment to demonstrate clean UI design, modular code, and responsive layout implementation.
 
 ---
 
-## 🚀 How to Run
+## 📸 Demo
 
-### Option 1: Simple HTML Preview
-1. Clone the repository or download as ZIP.
-2. Open `index.html` in your browser.
+> 🔗 **Live URL:** _[Coming Soon - Deployed via Vercel](#)_
 
-### Option 2: Serve via Local Server (Recommended)
+![Screenshot](./public/screenshot.png) <!-- Add your own screenshot file or path -->
+
+---
+
+## ✨ Features
+
+- ✅ Fully responsive employee directory layout
+- ✅ Modern UI with clean design principles
+- ✅ Reusable components
+- ✅ Tailwind CSS integration for fast styling
+- ✅ Structured project with maintainable file architecture
+
+---
+
+## 🧰 Tech Stack
+
+- **React**
+- **Vite**
+- **TypeScript**
+- **Tailwind CSS**
+
+---
+
+## 📁 Folder Structure
+
+src/
+├── assets/ # Static images and assets
+├── components/ # Reusable UI components
+├── pages/ # Page-level components
+├── data/ # Employee data (mock)
+├── App.tsx # Root component
+├── main.tsx # Entry point
+└── index.css # Global styles
+
+yaml
+Copy
+Edit
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Installation
+
 ```bash
-npx serve .
+git clone https://github.com/YOUR_USERNAME/Employee-directory-design-Assignment.git
+cd Employee-directory-design-Assignment
+npm install
+npm run dev
 
